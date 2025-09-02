@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Básica - Cliente/Servidor, DCU e Investigación</title>
+</head>
+<body>
+  <h1>Arquitectura Cliente/Servidor y Desarrollo Web</h1>
+
+  <p>
+    La arquitectura cliente/servidor es la base de la programación web dinámica. 
+    El cliente (navegador) solicita información y el servidor procesa los datos 
+    y devuelve la respuesta. Este modelo permite la centralización de datos, 
+    la escalabilidad y la seguridad en los sistemas web 
+    (Blog ingranetnetborking 2019; Blog La Arquitectura,2021).
+  </p>
+
+  <h2>Diseño Centrado en el Usuario (DCU)</h2>
+  <p>
+    El diseño centrado en el usuario busca que las aplicaciones web sean claras, 
+    accesibles y útiles para las personas. Esto implica interfaces fáciles de usar, 
+    retroalimentación inmediata y prevención de errores. El DCU asegura que las 
+    respuestas del servidor se presenten de forma comprensible y eficiente.
+  </p>
+
+  <h2>Investigación en el Entorno y Requisitos</h2>
+  <p>
+    Investigar el contexto donde se usará una aplicación web es esencial para definir 
+    requisitos y especificaciones técnicas. Si se desconoce la realidad del entorno 
+    conectividad y dispositivos, se corre el riesgo de construir 
+    un sistema poco funcional. La investigación permite soluciones adaptadas, 
+    seguras y sostenibles en el tiempo.
+  </p>
+
+  <h2>Ejemplo Interactivo</h2>
+  <p>Haz clic en el botón para ver cómo funciona una petición básica:</p>
+  <button onclick="mostrarMensaje()">Simular Cliente/Servidor</button>
+  <p id="mensaje"></p>
+
+  <script>
+    function mostrarMensaje() {
+      document.getElementById("mensaje").innerText = 
+        "Cliente: solicita datos → Servidor: procesa y responde → Cliente: muestra resultados.";
+    }
+  </script>
+
+  <h2>Referencias (APA 7.0)</h2>
+  <ul>
+    <li>Blog ingranetnetborking. (2019). <i>Modelo cliente servidor</i>. https://blog.infranetworking.com/modelo-cliente-servidor/</li>
+    <li>Blog La arquitectura Cliente-Servidor. (2021). <i> https://reactiveprogramming.io/blog/es/estilos-arquitectonicos/cliente-servidor</li>
+  </ul>
+</body>
+</html>
